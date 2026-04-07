@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "Goutam56663-d6kz.aternos.me",
+    "ip": "Goutam56663-d6kz.aternos.me:61375",
     "port": 61375,
     "version": "1.21.11",
     "try-creative": false
