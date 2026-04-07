@@ -1,3 +1,14 @@
+const express = require('express');
+const app = express();
+const webPort = process.env.PORT || 8080;
+
+app.get('/', (req, res) => {
+  res.send('AFK Bot is Online!');
+});
+
+app.listen(webPort, () => {
+  console.log(`Web server active on port ${webPort}`);
+});
 "use strict";
 
 const { addLog, getLogs } = require("./logger");
